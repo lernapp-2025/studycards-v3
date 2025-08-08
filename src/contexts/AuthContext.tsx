@@ -105,7 +105,9 @@ export function AuthProvider({ children }: AuthProviderProps) {
         
         setLoading(false);
 
-        if (event === 'SIGNED_OUT') {
+        if (event === 'SIGNED_IN') {
+          router.push('/dashboard');
+        } else if (event === 'SIGNED_OUT') {
           router.push('/');
         }
       }
@@ -119,8 +121,11 @@ export function AuthProvider({ children }: AuthProviderProps) {
   const signIn = async (email: string, password: string) => {
     setLoading(true);
     try {
-      await auth.signIn(email, password);
-      router.push('/dashboard');
+      const { user } = await auth.signIn(email, password);
+      if (user) {
+        // Let onAuthStateChange handle the redirect
+        // The router.push will happen after the session is properly set
+      }
     } catch (error: any) {
       setLoading(false);
       throw error;
