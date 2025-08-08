@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Preise",
+    "privacy": "Datenschutz",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "Lerne smarter mit StudyCards",
+    "subtitle": "Die professionelle Karteikarten-App für Schüler und Studierende. Mit Kollaboration, Gamification und DSGVO-Konformität.",
+    "cta": "Jetzt kostenlos starten",
+    "trial": "7 Tage kostenlos testen",
+    "cardExample": {
+      "front": "Was ist die Hauptstadt von Deutschland?",
+      "back": "Berlin"
+    }
+  },
+  "features": {
+    "title": "Alles was du zum Lernen brauchst",
+    "subtitle": "StudyCards bietet alle Tools für effektives Lernen in einer benutzerfreundlichen Oberfläche",
+    "cards": {
+      "title": "WYSIWYG Editor",
+      "description": "Erstelle professionelle Karteikarten mit Text, Bildern und individueller Formatierung"
+    },
+    "folders": {
+      "title": "Farbige Ordner", 
+      "description": "Organisiere deine Inhalte in hierarchischen, farbcodierten Ordnern"
+    },
+    "groups": {
+      "title": "Kollaboration",
+      "description": "Arbeite in Echtzeit mit bis zu 15 Gruppen zusammen"
+    },
+    "learning": {
+      "title": "5 Lernmodi",
+      "description": "Karteikarten, Spaced Repetition, Tests, Schreibmodus und Zuordnungsspiele"
+    },
+    "gamification": {
+      "title": "Gamification",
+      "description": "XP-System, Badges, Streaks und ausführliche Lernstatistiken"
+    },
+    "privacy": {
+      "title": "DSGVO-konform",
+      "description": "Höchste Datenschutzstandards mit EU-Servern"
+    }
+  },
+  "pricing": {
+    "title": "Einfache, faire Preise",
+    "subtitle": "Einmal zahlen, für immer nutzen. Keine Abos, keine versteckten Kosten.",
+    "plan": {
+      "title": "StudyCards Premium",
+      "period": "einmalig",
+      "description": "Vollzugriff auf alle Features, für immer"
+    },
+    "benefits": {
+      "unlimited": "Unbegrenzte Karten, Sets und Ordner",
+      "collaboration": "Bis zu 15 Gruppen mit Kollaboration",
+      "modes": "Alle 5 Lernmodi verfügbar",
+      "statistics": "Detaillierte Lernstatistiken",
+      "support": "E-Mail-Support",
+      "updates": "Kostenlose Updates"
+    },
+    "cta": "Jetzt kostenlos testen",
+    "trial": "7 Tage gratis, dann einmalig 7,99€"
+  },
+  "footer": {
+    "description": "Die professionelle Karteikarten-App für effektives Lernen mit Kollaboration und Gamification.",
+    "links": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    },
+    "support": {
+      "title": "Support",
+      "email": "support@studycards.com"
+    },
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

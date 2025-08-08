@@ -1,0 +1,126 @@
+{
+  "title": "Nutzungsbedingungen",
+  "lastUpdated": "Letzte Aktualisierung",
+  "backToHome": "Zurück zur Startseite",
+  "sections": {
+    "intro": {
+      "title": "Einführung",
+      "content": "Willkommen bei StudyCards! Diese Nutzungsbedingungen regeln Ihre Nutzung unserer Karteikarten-Anwendung. Durch die Nutzung von StudyCards stimmen Sie diesen Bedingungen zu."
+    },
+    "service": {
+      "title": "Beschreibung des Services",
+      "description": "StudyCards ist eine professionelle Karteikarten-Anwendung, die Ihnen beim Lernen hilft. Unser Service umfasst:",
+      "features": {
+        "title": "Hauptfunktionen",
+        "editor": "WYSIWYG-Editor für Karteikarten mit Text und Bildern",
+        "folders": "Hierarchische, farbcodierte Ordnerorganisation",
+        "learning": "5 verschiedene Lernmodi inklusive Spaced Repetition",
+        "collaboration": "Echtzeit-Kollaboration in Gruppen",
+        "statistics": "Detaillierte Lernstatistiken und Gamification"
+      }
+    },
+    "account": {
+      "title": "Konto-Registrierung",
+      "registration": {
+        "title": "Registrierungsanforderungen",
+        "accurate": "Sie müssen korrekte und vollständige Informationen angeben",
+        "secure": "Sie sind verantwortlich für die Sicherheit Ihres Passworts",
+        "personal": "Ein Konto pro Person - keine geteilten Konten",
+        "age": "Sie müssen mindestens 13 Jahre alt sein"
+      },
+      "trial": {
+        "title": "Kostenlose Testphase",
+        "content": "Neue Nutzer erhalten eine 7-tägige kostenlose Testphase mit vollem Zugang zu allen Features. Nach Ablauf ist eine einmalige Zahlung von 7,99 € für dauerhaften Zugang erforderlich."
+      }
+    },
+    "payment": {
+      "title": "Zahlungsbedingungen",
+      "price": {
+        "title": "Preis und Zahlungsmodell",
+        "content": "StudyCards Premium kostet einmalig 7,99 €. Keine Abonnements, keine wiederkehrenden Gebühren."
+      },
+      "processing": {
+        "title": "Zahlungsabwicklung",
+        "content": "Alle Zahlungen werden sicher über Stripe abgewickelt. Wir speichern keine Kreditkartendaten."
+      },
+      "refunds": {
+        "title": "Rückerstattungen",
+        "content": "Rückerstattungen sind innerhalb von 14 Tagen nach dem Kauf bei berechtigten Gründen möglich. Kontaktieren Sie uns unter support@studycards.com."
+      }
+    },
+    "content": {
+      "title": "Nutzer-Inhalte",
+      "ownership": {
+        "title": "Eigentum an Inhalten",
+        "content": "Sie behalten das vollständige Eigentum an allen Karteikarten, Texten und Bildern, die Sie erstellen. StudyCards beansprucht keine Rechte an Ihren Inhalten."
+      },
+      "responsibility": {
+        "title": "Verantwortung für Inhalte",
+        "content": "Sie sind allein verantwortlich für alle Inhalte, die Sie hochladen oder erstellen. Stellen Sie sicher, dass Sie die Rechte für alle verwendeten Materialien besitzen."
+      },
+      "prohibited": {
+        "title": "Verbotene Inhalte",
+        "illegal": "Rechtswidrige, beleidigende oder diskriminierende Inhalte",
+        "harmful": "Inhalte, die anderen schaden könnten",
+        "copyright": "Urheberrechtlich geschützte Materialien ohne Erlaubnis",
+        "malware": "Schädliche Software oder Viren"
+      }
+    },
+    "usage": {
+      "title": "Zulässige Nutzung",
+      "allowed": {
+        "title": "Erlaubte Nutzung",
+        "personal": "Persönliches Lernen und Studium",
+        "educational": "Bildungszwecke in Schulen und Universitäten",
+        "collaboration": "Zusammenarbeit in privaten Gruppen"
+      },
+      "prohibited": {
+        "title": "Verbotene Nutzung",
+        "automation": "Automatisierte Systeme oder Bots zur Nutzung des Services",
+        "reverse": "Reverse Engineering oder Dekompilierung der Software",
+        "resale": "Weiterverkauf oder kommerzielle Nutzung ohne Erlaubnis",
+        "interference": "Störung oder Beeinträchtigung des Services"
+      }
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "content": "Ihr Datenschutz ist uns wichtig. Alle Details zur Datenverarbeitung finden Sie in unserer Datenschutzerklärung.",
+      "readPolicy": "Datenschutzerklärung lesen"
+    },
+    "availability": {
+      "title": "Service-Verfügbarkeit",
+      "content": "Wir bemühen uns um eine hohe Verfügbarkeit von StudyCards, können aber keine 100%ige Uptime garantieren. Wartungsarbeiten werden im Voraus angekündigt."
+    },
+    "liability": {
+      "title": "Haftungsbeschränkung",
+      "content": "StudyCards wird 'wie es ist' bereitgestellt. Wir haften nicht für Datenverlust, entgangene Gewinne oder andere indirekte Schäden. Unsere Haftung ist auf die gezahlte Gebühr beschränkt."
+    },
+    "termination": {
+      "title": "Kündigung",
+      "byUser": {
+        "title": "Kündigung durch Sie",
+        "content": "Sie können Ihr Konto jederzeit löschen. Ihre Daten werden innerhalb von 30 Tagen vollständig entfernt."
+      },
+      "byUs": {
+        "title": "Kündigung durch uns",
+        "content": "Wir können Konten bei Verstoß gegen diese Nutzungsbedingungen sperren oder löschen."
+      }
+    },
+    "law": {
+      "title": "Anwendbares Recht",
+      "content": "Diese Nutzungsbedingungen unterliegen deutschem Recht. Gerichtsstand ist Deutschland."
+    },
+    "changes": {
+      "title": "Änderungen der Nutzungsbedingungen",
+      "content": "Wir können diese Nutzungsbedingungen gelegentlich aktualisieren. Wichtige Änderungen werden wir Ihnen per E-Mail mitteilen."
+    },
+    "contact": {
+      "title": "Kontakt"
+    }
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "contact": "Kontakt",
+    "home": "Startseite"
+  }
+}

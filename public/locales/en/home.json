@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "privacy": "Privacy",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "title": "Learn smarter with StudyCards",
+    "subtitle": "The professional flashcard app for students. With collaboration, gamification, and GDPR compliance.",
+    "cta": "Start free now",
+    "trial": "7 days free trial",
+    "cardExample": {
+      "front": "What is the capital of Germany?",
+      "back": "Berlin"
+    }
+  },
+  "features": {
+    "title": "Everything you need for learning",
+    "subtitle": "StudyCards provides all tools for effective learning in a user-friendly interface",
+    "cards": {
+      "title": "WYSIWYG Editor",
+      "description": "Create professional flashcards with text, images, and custom formatting"
+    },
+    "folders": {
+      "title": "Colored Folders", 
+      "description": "Organize your content in hierarchical, color-coded folders"
+    },
+    "groups": {
+      "title": "Collaboration",
+      "description": "Work in real-time with up to 15 groups"
+    },
+    "learning": {
+      "title": "5 Learning Modes",
+      "description": "Flashcards, spaced repetition, tests, write mode, and matching games"
+    },
+    "gamification": {
+      "title": "Gamification",
+      "description": "XP system, badges, streaks, and detailed learning statistics"
+    },
+    "privacy": {
+      "title": "GDPR Compliant",
+      "description": "Highest privacy standards with EU servers"
+    }
+  },
+  "pricing": {
+    "title": "Simple, fair pricing",
+    "subtitle": "Pay once, use forever. No subscriptions, no hidden costs.",
+    "plan": {
+      "title": "StudyCards Premium",
+      "period": "one-time",
+      "description": "Full access to all features, forever"
+    },
+    "benefits": {
+      "unlimited": "Unlimited cards, sets, and folders",
+      "collaboration": "Up to 15 groups with collaboration",
+      "modes": "All 5 learning modes available",
+      "statistics": "Detailed learning statistics",
+      "support": "Email support",
+      "updates": "Free updates"
+    },
+    "cta": "Try free now",
+    "trial": "7 days free, then €7.99 one-time"
+  },
+  "footer": {
+    "description": "The professional flashcard app for effective learning with collaboration and gamification.",
+    "links": {
+      "title": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms of Service"
+    },
+    "support": {
+      "title": "Support",
+      "email": "support@studycards.com"
+    },
+    "rights": "All rights reserved."
+  }
+}

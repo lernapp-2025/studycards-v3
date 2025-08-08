@@ -1,0 +1,109 @@
+{
+  "title": "Datenschutzerklärung",
+  "lastUpdated": "Letzte Aktualisierung",
+  "backToHome": "Zurück zur Startseite",
+  "gdprCompliant": "DSGVO-konform",
+  "gdprDescription": "Diese Anwendung entspricht vollständig der EU-Datenschutz-Grundverordnung (DSGVO)",
+  "sections": {
+    "intro": {
+      "title": "Einleitung",
+      "content": "Bei StudyCards nehmen wir den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung erklärt, welche Daten wir sammeln, wie wir sie verwenden und welche Rechte Sie haben. Als europäisches Unternehmen halten wir uns strikt an die DSGVO und andere geltende Datenschutzgesetze."
+    },
+    "dataCollection": {
+      "title": "Welche Daten sammeln wir?",
+      "personal": {
+        "title": "Persönliche Daten",
+        "email": "E-Mail-Adresse (für Anmeldung und Kommunikation)",
+        "password": "Passwort (verschlüsselt gespeichert)",
+        "preferences": "Sprach- und Theme-Einstellungen",
+        "content": "Ihre erstellten Karteikarten und Ordner"
+      },
+      "usage": {
+        "title": "Nutzungsdaten",
+        "studyStats": "Lernstatistiken (XP, Streaks, Fortschritt)",
+        "loginTimes": "Anmeldezeiten und letzte Aktivität",
+        "features": "Genutzte Features (zur Verbesserung der App)"
+      },
+      "notCollected": {
+        "title": "Was sammeln wir NICHT?",
+        "content": "Wir sammeln keine Tracking-Cookies, keine Standortdaten, keine Kontakte aus Ihrem Gerät und verkaufen keine Daten an Dritte."
+      }
+    },
+    "dataUsage": {
+      "title": "Wie verwenden wir Ihre Daten?",
+      "service": {
+        "title": "Bereitstellung des Services",
+        "content": "Ihre Daten ermöglichen es uns, Ihnen die StudyCards-Funktionen bereitzustellen"
+      },
+      "improvement": {
+        "title": "Verbesserung der App",
+        "content": "Anonymisierte Nutzungsstatistiken helfen uns, StudyCards zu verbessern"
+      },
+      "communication": {
+        "title": "Kommunikation",
+        "content": "Wichtige Updates und Support-Anfragen (nur bei Notwendigkeit)"
+      }
+    },
+    "dataStorage": {
+      "title": "Datenspeicherung und Sicherheit",
+      "location": {
+        "title": "Standort der Server",
+        "content": "Alle Daten werden auf EU-Servern (Supabase, Deutschland) gespeichert und verlassen niemals die EU."
+      },
+      "security": {
+        "title": "Sicherheit",
+        "content": "SSL-Verschlüsselung, verschlüsselte Passwörter, sichere Datenbankzugriffe und regelmäßige Backups."
+      },
+      "retention": {
+        "title": "Aufbewahrungsdauer",
+        "content": "Ihre Daten werden solange gespeichert, wie Ihr Konto aktiv ist. Nach Löschung des Kontos werden alle Daten innerhalb von 30 Tagen vollständig entfernt."
+      }
+    },
+    "rights": {
+      "title": "Ihre Rechte (DSGVO)",
+      "access": {
+        "title": "Zugriff und Verwaltung",
+        "view": "Einsicht in alle gespeicherten Daten",
+        "download": "Export Ihrer Daten (JSON-Format)",
+        "update": "Bearbeitung Ihrer Informationen",
+        "delete": "Löschung Ihres Kontos jederzeit"
+      },
+      "gdpr": {
+        "title": "DSGVO-Rechte",
+        "rectification": "Recht auf Berichtigung",
+        "erasure": "Recht auf Löschung ('Recht auf Vergessenwerden')",
+        "portability": "Recht auf Datenübertragbarkeit",
+        "objection": "Widerspruchsrecht"
+      },
+      "contact": {
+        "title": "Rechte ausüben",
+        "content": "Kontaktieren Sie uns jederzeit unter:"
+      }
+    },
+    "thirdParties": {
+      "title": "Drittanbieter-Services",
+      "supabase": "Sicherer Database-Hosting-Service mit EU-Servern. Speichert Ihre Karteikarten und Kontodaten verschlüsselt.",
+      "stripe": "Sichere Zahlungsabwicklung. Stripe verarbeitet Zahlungen, speichert aber keine Kartendaten auf unseren Servern.",
+      "vercel": "Hosting-Platform für die StudyCards-Website. Verarbeitet nur technische Daten für die Bereitstellung der App."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "general": {
+        "title": "Allgemeine Anfragen"
+      },
+      "dpo": {
+        "title": "Datenschutz-Anfragen",
+        "response": "Antwort innerhalb von 72 Stunden"
+      }
+    },
+    "changes": {
+      "title": "Änderungen an dieser Erklärung",
+      "content": "Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Wichtige Änderungen werden wir Ihnen per E-Mail mitteilen. Die aktuelle Version finden Sie immer auf dieser Seite."
+    }
+  },
+  "footer": {
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "home": "Startseite"
+  }
+}

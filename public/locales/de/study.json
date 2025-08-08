@@ -1,0 +1,54 @@
+{
+  "cardCount": "{{current}} von {{total}}",
+  "shuffle": "Mischen",
+  "clickToFlip": "Klicken zum Umdrehen",
+  "answer": "Antwort",
+  "correct": "Richtig",
+  "incorrect": "Falsch", 
+  "previous": "Zurück",
+  "next": "Weiter",
+  "flip": "Umdrehen",
+  "shortcuts": {
+    "space": "Leertaste: Umdrehen",
+    "arrows": "Pfeiltasten: Navigation"
+  },
+  "modes": {
+    "flashcards": {
+      "name": "Karteikarten",
+      "description": "Klassisches Durchblättern mit Umdrehen"
+    },
+    "learn": {
+      "name": "Lernmodus", 
+      "description": "Spaced Repetition für optimales Lernen"
+    },
+    "write": {
+      "name": "Schreibmodus",
+      "description": "Antworten selbst eintippen"
+    },
+    "test": {
+      "name": "Testmodus",
+      "description": "Multiple Choice und Tests"
+    },
+    "match": {
+      "name": "Zuordnungsspiel",
+      "description": "Begriffe und Definitionen zuordnen"
+    }
+  },
+  "session": {
+    "start": "Lernsession starten",
+    "complete": "Session abgeschlossen!",
+    "progress": "Fortschritt",
+    "timeElapsed": "Verstrichene Zeit",
+    "cardsStudied": "Karten gelernt",
+    "accuracy": "Genauigkeit",
+    "summary": "Zusammenfassung",
+    "continue": "Weiter lernen",
+    "finish": "Beenden"
+  },
+  "feedback": {
+    "excellent": "Ausgezeichnet!",
+    "good": "Gut gemacht!",
+    "needsPractice": "Braucht mehr Übung",
+    "tryAgain": "Nochmal versuchen"
+  }
+}

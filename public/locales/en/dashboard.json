@@ -1,0 +1,27 @@
+{
+  "welcome": "Welcome back, {{name}}!",
+  "subtitle": "Ready to learn? Here's your overview.",
+  "startStudying": "Start Studying",
+  "quickActionsTitle": "Quick Actions",
+  "create": "Create",
+  "quickActions": {
+    "newFolder": "New Folder",
+    "newFolderDesc": "Organize your flashcards in folders",
+    "newSet": "New Card Set",
+    "newSetDesc": "Create a new set with flashcards",
+    "joinGroup": "Join Group",
+    "joinGroupDesc": "Join a study group"
+  },
+  "stats": {
+    "totalCards": "Total Cards",
+    "studyStreak": "Study Streak",
+    "weeklyProgress": "Weekly Progress",
+    "level": "Level"
+  },
+  "recentActivity": "Recent Activity",
+  "noRecentActivity": "No recent activities",
+  "upcomingReviews": "Upcoming Reviews", 
+  "noUpcomingReviews": "No reviews scheduled",
+  "dailyGoal": "Daily Goal",
+  "dailyGoalDesc": "{{studied}} of {{goal}} cards studied today"
+}

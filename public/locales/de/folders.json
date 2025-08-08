@@ -1,0 +1,66 @@
+{
+  "title": "Ordner",
+  "subtitle": "Organisiere deine Karteikarten in farbcodierten Ordnern",
+  "newFolder": "Neuer Ordner",
+  "newSet": "Neues Set",
+  "structure": "Ordnerstruktur",
+  "structureDesc": "Organisiere deine Inhalte in hierarchischen Ordnern",
+  "searchPlaceholder": "Ordner durchsuchen...",
+  "stats": {
+    "folders": "Ordner",
+    "sets": "Sets",
+    "cards": "Karten"
+  },
+  "sort": {
+    "name": "Name",
+    "created": "Erstellt",
+    "updated": "Aktualisiert",
+    "size": "Größe"
+  },
+  "filter": "Filter",
+  "empty": {
+    "title": "Keine Ordner vorhanden",
+    "description": "Erstelle deinen ersten Ordner oder tritt einer Gruppe bei, um zu beginnen."
+  },
+  "joinGroup": "Gruppe beitreten",
+  "folderInfo": "Ordner-Details",
+  "color": "Farbe",
+  "cardSets": "Kartensets",
+  "subfolders": "Unterordner", 
+  "openFolder": "Ordner öffnen",
+  "addSet": "Set hinzufügen",
+  "selectFolder": "Ordner auswählen",
+  "otherViewsComingSoon": "Weitere Ansichten kommen bald",
+  "edit": "Bearbeiten",
+  "delete": "Löschen",
+  "newSubfolder": "Unterordner",
+  "confirmDelete": "Bist du sicher, dass du den Ordner '{{name}}' löschen möchtest?",
+  "deleted": "Ordner wurde gelöscht",
+  "loadError": "Fehler beim Laden der Ordner",
+  "createFolder": {
+    "title": "Neuen Ordner erstellen",
+    "subtitle": "Organisiere deine Karteikarten",
+    "name": "Ordnername",
+    "namePlaceholder": "z.B. Mathematik, Geschichte, Sprachen",
+    "color": "Farbe wählen",
+    "parent": "Übergeordneter Ordner",
+    "parentPlaceholder": "Optional - Ordner auswählen",
+    "noParent": "Hauptordner (keine Auswahl)",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Optionale Beschreibung des Ordners",
+    "create": "Ordner erstellen",
+    "creating": "Wird erstellt...",
+    "success": "Ordner erfolgreich erstellt!",
+    "error": "Fehler beim Erstellen des Ordners"
+  },
+  "colors": {
+    "blue": "Blau",
+    "green": "Grün",
+    "yellow": "Gelb", 
+    "orange": "Orange",
+    "pink": "Pink",
+    "purple": "Lila",
+    "turquoise": "Türkis",
+    "red": "Rot"
+  }
+}

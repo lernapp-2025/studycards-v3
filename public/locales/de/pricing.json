@@ -1,0 +1,59 @@
+{
+  "title": "StudyCards Premium freischalten",
+  "subtitle": "Einmal zahlen, für immer nutzen. Keine Abos, keine versteckten Kosten.",
+  "trialStatus": "Deine kostenlose Testphase läuft bald ab",
+  "alreadyPremium": "Du hast bereits StudyCards Premium!",
+  "plan": {
+    "title": "StudyCards Premium",
+    "period": "einmalig",
+    "description": "Vollzugriff auf alle Features, für immer"
+  },
+  "upgradeButton": "Jetzt für 7,99 € freischalten",
+  "alreadyOwned": "Bereits freigeschaltet",
+  "processing": "Wird bearbeitet...",
+  "securePayment": "Sichere Zahlung mit SSL-Verschlüsselung",
+  "featuresTitle": "Was du bekommst",
+  "features": {
+    "unlimited": {
+      "title": "Unbegrenzte Inhalte",
+      "description": "Erstelle unbegrenzt viele Karten, Sets und Ordner"
+    },
+    "collaboration": {
+      "title": "Kollaboration", 
+      "description": "Arbeite in bis zu 15 Gruppen mit Echtzeit-Bearbeitung zusammen"
+    },
+    "modes": {
+      "title": "Alle Lernmodi",
+      "description": "Zugriff auf alle 5 Lernmodi inklusive Spaced Repetition"
+    },
+    "analytics": {
+      "title": "Detaillierte Statistiken",
+      "description": "Verfolge deinen Lernfortschritt mit ausführlichen Analysen"
+    },
+    "privacy": {
+      "title": "DSGVO-konform",
+      "description": "Höchste Datenschutzstandards mit EU-Servern"
+    },
+    "support": {
+      "title": "Premium Support",
+      "description": "Bevorzugter E-Mail-Support und kostenlose Updates"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "q1": {
+      "question": "Ist das wirklich eine einmalige Zahlung?",
+      "answer": "Ja! Du zahlst nur einmal 7,99 € und hast dann dauerhaften Zugriff auf alle Premium-Features. Keine monatlichen Gebühren, keine Abos."
+    },
+    "q2": {
+      "question": "Was passiert nach der 7-tägigen Testphase?",
+      "answer": "Nach 7 Tagen wirst du aufgefordert, Premium freizu-schalten. Du kannst weiterhin kostenlos grundlegende Features nutzen, aber für den vollen Zugang ist die einmalige Zahlung erforderlich."
+    },
+    "q3": {
+      "question": "Ist meine Zahlung sicher?",
+      "answer": "Absolut! Wir verwenden Stripe für die Zahlungsabwicklung - einen der sichersten und vertrauenswürdigsten Zahlungsanbieter weltweit. Deine Daten sind SSL-verschlüsselt und werden nicht bei uns gespeichert."
+    }
+  },
+  "backToHome": "Zurück zur Startseite",
+  "checkoutError": "Fehler beim Erstellen der Checkout-Session"
+}

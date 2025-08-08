@@ -1,0 +1,43 @@
+{
+  "addText": "Text hinzufügen",
+  "addImage": "Bild hinzufügen", 
+  "newText": "Neuer Text",
+  "imageTooLarge": "Bild ist zu groß (max. 5MB)",
+  "imageAdded": "Bild hinzugefügt",
+  "imageError": "Fehler beim Hinzufügen des Bildes",
+  "emptyCard": "Leere Karte",
+  "emptyCardDesc": "Füge Text oder Bilder hinzu",
+  "frontSide": "Vorderseite",
+  "backSide": "Rückseite",
+  "toolbar": {
+    "bold": "Fett",
+    "italic": "Kursiv",
+    "underline": "Unterstrichen",
+    "alignLeft": "Links ausrichten",
+    "alignCenter": "Zentrieren",
+    "alignRight": "Rechts ausrichten",
+    "color": "Textfarbe",
+    "backgroundColor": "Hintergrundfarbe",
+    "fontSize": "Schriftgröße",
+    "rotate": "Drehen",
+    "delete": "Löschen",
+    "bringToFront": "In den Vordergrund",
+    "sendToBack": "In den Hintergrund"
+  },
+  "properties": {
+    "position": "Position",
+    "size": "Größe",
+    "rotation": "Drehung",
+    "layer": "Ebene",
+    "text": "Text",
+    "formatting": "Formatierung"
+  },
+  "shortcuts": {
+    "title": "Tastenkürzel",
+    "delete": "Entf - Löschen",
+    "copy": "Strg+C - Kopieren",
+    "paste": "Strg+V - Einfügen",
+    "undo": "Strg+Z - Rückgängig",
+    "redo": "Strg+Y - Wiederholen"
+  }
+}

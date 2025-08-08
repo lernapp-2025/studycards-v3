@@ -1,0 +1,43 @@
+{
+  "addText": "Add Text",
+  "addImage": "Add Image", 
+  "newText": "New text",
+  "imageTooLarge": "Image is too large (max 5MB)",
+  "imageAdded": "Image added",
+  "imageError": "Error adding image",
+  "emptyCard": "Empty card",
+  "emptyCardDesc": "Add text or images",
+  "frontSide": "Front side",
+  "backSide": "Back side",
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "alignLeft": "Align left",
+    "alignCenter": "Center",
+    "alignRight": "Align right",
+    "color": "Text color",
+    "backgroundColor": "Background color",
+    "fontSize": "Font size",
+    "rotate": "Rotate",
+    "delete": "Delete",
+    "bringToFront": "Bring to front",
+    "sendToBack": "Send to back"
+  },
+  "properties": {
+    "position": "Position",
+    "size": "Size",
+    "rotation": "Rotation",
+    "layer": "Layer",
+    "text": "Text",
+    "formatting": "Formatting"
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "delete": "Del - Delete",
+    "copy": "Ctrl+C - Copy",
+    "paste": "Ctrl+V - Paste",
+    "undo": "Ctrl+Z - Undo",
+    "redo": "Ctrl+Y - Redo"
+  }
+}

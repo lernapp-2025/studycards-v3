@@ -1,0 +1,92 @@
+import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
+
+import { useAuth } from '@/contexts/AuthContext';
+import { Button } from '@/components/ui/Button';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card';
+import { Crown, X } from 'lucide-react';
+
+export default function TrialExpiredModal() {
+  const { user, isTrialExpired, isPremium } = useAuth();
+  const [isVisible, setIsVisible] = useState(true);
+  const { t } = useTranslation('common');
+  const router = useRouter();
+
+  if (!user || isPremium || !isTrialExpired || !isVisible) {
+    return null;
+  }
+
+  const handleUpgrade = () => {
+    router.push('/pricing');
+    setIsVisible(false);
+  };
+
+  const handleClose = () => {
+    setIsVisible(false);
+  };
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <Card className="w-full max-w-md border-2 border-sc-orange">
+        <CardHeader className="text-center pb-4">
+          <div className="w-16 h-16 bg-gradient-to-br from-sc-orange to-sc-red rounded-full flex items-center justify-center mx-auto mb-4">
+            <Crown className="h-8 w-8 text-white" />
+          </div>
+          <CardTitle className="text-2xl text-sc-orange">
+            {t('trialExpired.title')}
+          </CardTitle>
+          <CardDescription className="text-base">
+            {t('trialExpired.subtitle')}
+          </CardDescription>
+        </CardHeader>
+
+        <CardContent className="space-y-6">
+          <div className="bg-muted/50 p-4 rounded-lg">
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              {t('trialExpired.message')}
+            </p>
+          </div>
+
+          <div className="flex flex-col space-y-3">
+            <Button 
+              onClick={handleUpgrade}
+              className="w-full bg-sc-orange hover:bg-sc-orange/90 text-white"
+            >
+              <Crown className="h-4 w-4 mr-2" />
+              {t('trialExpired.upgradeButton')}
+            </Button>
+
+            <Button 
+              variant="ghost" 
+              onClick={handleClose}
+              className="w-full text-muted-foreground"
+            >
+              {t('trialExpired.laterButton')}
+            </Button>
+          </div>
+
+          <div className="text-center">
+            <div className="flex items-center justify-center space-x-4 text-xs text-muted-foreground">
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-sc-green rounded-full mr-2"></div>
+                {t('trialExpired.features.unlimited')}
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-sc-blue rounded-full mr-2"></div>
+                {t('trialExpired.features.collaboration')}
+              </div>
+            </div>
+          </div>
+        </CardContent>
+
+        <button
+          onClick={handleClose}
+          className="absolute top-4 right-4 text-muted-foreground hover:text-foreground"
+        >
+          <X className="h-5 w-5" />
+        </button>
+      </Card>
+    </div>
+  );
+}

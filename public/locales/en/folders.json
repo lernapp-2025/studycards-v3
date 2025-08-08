@@ -1,0 +1,66 @@
+{
+  "title": "Folders",
+  "subtitle": "Organize your flashcards in color-coded folders",
+  "newFolder": "New Folder",
+  "newSet": "New Set",
+  "structure": "Folder Structure",
+  "structureDesc": "Organize your content in hierarchical folders",
+  "searchPlaceholder": "Search folders...",
+  "stats": {
+    "folders": "Folders",
+    "sets": "Sets",
+    "cards": "Cards"
+  },
+  "sort": {
+    "name": "Name",
+    "created": "Created",
+    "updated": "Updated",
+    "size": "Size"
+  },
+  "filter": "Filter",
+  "empty": {
+    "title": "No folders yet",
+    "description": "Create your first folder or join a group to get started."
+  },
+  "joinGroup": "Join Group",
+  "folderInfo": "Folder Details",
+  "color": "Color",
+  "cardSets": "Card Sets",
+  "subfolders": "Subfolders", 
+  "openFolder": "Open Folder",
+  "addSet": "Add Set",
+  "selectFolder": "Select a folder",
+  "otherViewsComingSoon": "Other views coming soon",
+  "edit": "Edit",
+  "delete": "Delete",
+  "newSubfolder": "Subfolder",
+  "confirmDelete": "Are you sure you want to delete the folder '{{name}}'?",
+  "deleted": "Folder has been deleted",
+  "loadError": "Error loading folders",
+  "createFolder": {
+    "title": "Create New Folder",
+    "subtitle": "Organize your flashcards",
+    "name": "Folder Name",
+    "namePlaceholder": "e.g. Mathematics, History, Languages",
+    "color": "Choose Color",
+    "parent": "Parent Folder",
+    "parentPlaceholder": "Optional - select folder",
+    "noParent": "Root folder (no selection)",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional folder description",
+    "create": "Create Folder",
+    "creating": "Creating...",
+    "success": "Folder created successfully!",
+    "error": "Error creating folder"
+  },
+  "colors": {
+    "blue": "Blue",
+    "green": "Green",
+    "yellow": "Yellow", 
+    "orange": "Orange",
+    "pink": "Pink",
+    "purple": "Purple",
+    "turquoise": "Turquoise",
+    "red": "Red"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "cardCount": "{{current}} of {{total}}",
+  "shuffle": "Shuffle",
+  "clickToFlip": "Click to flip",
+  "answer": "Answer",
+  "correct": "Correct",
+  "incorrect": "Incorrect", 
+  "previous": "Previous",
+  "next": "Next",
+  "flip": "Flip",
+  "shortcuts": {
+    "space": "Space: Flip card",
+    "arrows": "Arrow keys: Navigate"
+  },
+  "modes": {
+    "flashcards": {
+      "name": "Flashcards",
+      "description": "Classic flip cards mode"
+    },
+    "learn": {
+      "name": "Learn Mode", 
+      "description": "Spaced repetition for optimal learning"
+    },
+    "write": {
+      "name": "Write Mode",
+      "description": "Type your answers"
+    },
+    "test": {
+      "name": "Test Mode",
+      "description": "Multiple choice and tests"
+    },
+    "match": {
+      "name": "Match Game",
+      "description": "Match terms and definitions"
+    }
+  },
+  "session": {
+    "start": "Start study session",
+    "complete": "Session completed!",
+    "progress": "Progress",
+    "timeElapsed": "Time elapsed",
+    "cardsStudied": "Cards studied",
+    "accuracy": "Accuracy",
+    "summary": "Summary",
+    "continue": "Continue studying",
+    "finish": "Finish"
+  },
+  "feedback": {
+    "excellent": "Excellent!",
+    "good": "Good job!",
+    "needsPractice": "Needs more practice",
+    "tryAgain": "Try again"
+  }
+}

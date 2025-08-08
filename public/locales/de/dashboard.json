@@ -1,0 +1,27 @@
+{
+  "welcome": "Willkommen zurück, {{name}}!",
+  "subtitle": "Bereit zum Lernen? Hier ist dein Überblick.",
+  "startStudying": "Lernen starten",
+  "quickActionsTitle": "Schnellaktionen",
+  "create": "Erstellen",
+  "quickActions": {
+    "newFolder": "Neuer Ordner",
+    "newFolderDesc": "Organisiere deine Karteikarten in Ordnern",
+    "newSet": "Neues Kartenset",
+    "newSetDesc": "Erstelle ein neues Set mit Karteikarten",
+    "joinGroup": "Gruppe beitreten",
+    "joinGroupDesc": "Tritt einer Lerngruppe bei"
+  },
+  "stats": {
+    "totalCards": "Gesamte Karten",
+    "studyStreak": "Lernstreak",
+    "weeklyProgress": "Wochenfortschritt",
+    "level": "Level"
+  },
+  "recentActivity": "Letzte Aktivität",
+  "noRecentActivity": "Keine aktuellen Aktivitäten vorhanden",
+  "upcomingReviews": "Anstehende Wiederholungen", 
+  "noUpcomingReviews": "Keine Wiederholungen geplant",
+  "dailyGoal": "Tagesziel",
+  "dailyGoalDesc": "{{studied}} von {{goal}} Karten heute gelernt"
+}

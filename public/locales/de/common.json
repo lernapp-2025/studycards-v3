@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "folders": "Ordner",
+    "groups": "Gruppen",
+    "statistics": "Statistiken",
+    "settings": "Einstellungen",
+    "quickActions": "Schnellaktionen",
+    "newFolder": "Neuer Ordner",
+    "newSet": "Neues Set",
+    "newGroup": "Neue Gruppe",
+    "recent": "Zuletzt verwendet",
+    "favorites": "Favoriten",
+    "noRecent": "Keine aktuellen Elemente",
+    "noFavorites": "Keine Favoriten"
+  },
+  "header": {
+    "searchPlaceholder": "Suche nach Karten, Sets oder Ordnern...",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "signOut": "Abmelden",
+    "darkMode": "Dunkler Modus",
+    "lightMode": "Heller Modus",
+    "trialDaysLeft": "{{days}} Tage verbleibend",
+    "trialExpired": "Testphase beendet",
+    "upgrade": "Upgraden"
+  },
+  "trialExpired": {
+    "title": "Dein kostenloser Testzeitraum ist abgelaufen",
+    "subtitle": "Schalte StudyCards jetzt dauerhaft frei",
+    "message": "Um weiterhin alle Funktionen von StudyCards nutzen zu können, schalte dein Konto jetzt für nur 7,99 € dauerhaft frei. Nach der Freischaltung hast du uneingeschränkten Zugriff auf alle Lernmodi, Gruppenfunktionen, Auszeichnungen und Statistiken.",
+    "upgradeButton": "Jetzt für 7,99 € freischalten",
+    "laterButton": "Später erinnern",
+    "features": {
+      "unlimited": "Unbegrenzt",
+      "collaboration": "Zusammenarbeit"
+    }
+  },
+  "buttons": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "finish": "Fertigstellen"
+  },
+  "messages": {
+    "loading": "Wird geladen...",
+    "saving": "Wird gespeichert...",
+    "saved": "Gespeichert!",
+    "error": "Fehler aufgetreten",
+    "success": "Erfolgreich!",
+    "noData": "Keine Daten verfügbar",
+    "confirmDelete": "Bist du sicher, dass du dies löschen möchtest?"
+  },
+  "validation": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Ungültige E-Mail-Adresse",
+    "passwordTooShort": "Passwort muss mindestens 8 Zeichen lang sein",
+    "passwordsNotMatch": "Passwörter stimmen nicht überein"
+  }
+}
