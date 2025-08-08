@@ -1,7 +1,8 @@
 import Stripe from 'stripe';
 import { loadStripe, Stripe as StripeInstance } from '@stripe/stripe-js';
 
-if (!process.env.STRIPE_SECRET_KEY) {
+// Only check for STRIPE_SECRET_KEY on server-side
+if (typeof window === 'undefined' && !process.env.STRIPE_SECRET_KEY) {
   throw new Error('Missing STRIPE_SECRET_KEY environment variable');
 }
 
@@ -9,9 +10,11 @@ if (!process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY) {
   throw new Error('Missing NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY environment variable');
 }
 
-export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2023-10-16',
-});
+export const stripe = typeof window === 'undefined' 
+  ? new Stripe(process.env.STRIPE_SECRET_KEY!, {
+      apiVersion: '2023-10-16',
+    })
+  : null;
 
 let stripePromise: Promise<StripeInstance | null>;
 
@@ -28,6 +31,10 @@ export const createCheckoutSession = async (
   successUrl: string,
   cancelUrl: string
 ) => {
+  if (!stripe) {
+    throw new Error('Stripe not available on client-side');
+  }
+  
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
     mode: 'payment',
@@ -57,6 +64,10 @@ export const createCheckoutSession = async (
 };
 
 export const constructWebhookEvent = (body: string, signature: string) => {
+  if (!stripe) {
+    throw new Error('Stripe not available on client-side');
+  }
+  
   const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
   
   if (!webhookSecret) {
