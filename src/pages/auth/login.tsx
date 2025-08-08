@@ -33,11 +33,11 @@ export default function LoginPage() {
     try {
       await signIn(email, password);
       toast.success(t('login.success'));
+      // signIn handles the redirect to /dashboard
     } catch (error: any) {
       console.error('Login error:', error);
       toast.error(error.message || t('login.error'));
-    } finally {
-      setIsLoading(false);
+      setIsLoading(false); // Only set loading false on error
     }
   };
 
