@@ -7,7 +7,7 @@ import { getStripe } from '@/lib/stripe';
 import toast from 'react-hot-toast';
 import { Crown, Check } from 'lucide-react';
 
-export default function SimplePricingPage() {
+export default function PricingPage() {
   const [loading, setLoading] = useState(false);
   const { user, session } = useAuth();
   const router = useRouter();
