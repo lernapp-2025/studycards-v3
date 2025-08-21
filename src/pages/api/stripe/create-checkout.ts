@@ -8,34 +8,25 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    // Get the user from the Authorization header
-    const token = req.headers.authorization?.replace('Bearer ', '');
+    // For testing: Use your admin email directly
+    const testEmail = 'tizian.schorr@outlook.de';
     
-    if (!token) {
-      return res.status(401).json({ error: 'No authorization token provided' });
-    }
-
-    // Verify the token with Supabase
-    const { data: { user }, error: authError } = await supabase.auth.getUser(token);
-
-    if (authError || !user) {
-      return res.status(401).json({ error: 'Invalid or expired token' });
-    }
-
-    // Check if user is already premium
-    const { data: userData, error: userError } = await supabase
+    // Get user from database
+    const { data: user, error: userError } = await supabase
       .from('users')
-      .select('is_premium')
-      .eq('id', user.id)
+      .select('*')
+      .eq('email', testEmail)
       .single();
 
-    if (userError) {
-      return res.status(500).json({ error: 'Error fetching user data' });
+    if (userError || !user) {
+      return res.status(404).json({ error: 'Test user not found' });
     }
 
-    if (userData?.is_premium) {
+    // Check if user is already premium (user is now the full user data)
+    if (user.is_premium) {
       return res.status(400).json({ error: 'User is already premium' });
     }
+
 
     // Create checkout session
     const session = await createCheckoutSession(
