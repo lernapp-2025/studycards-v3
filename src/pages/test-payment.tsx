@@ -41,7 +41,7 @@ export default function TestPayment() {
       
     } catch (error) {
       console.error('Payment error:', error);
-      toast.error(`Fehler: ${error.message}`);
+      toast.error(`Fehler: ${error instanceof Error ? error.message : 'Unbekannter Fehler'}`);
       setLoading(false);
     }
   };
