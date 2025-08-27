@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { buffer } from 'micro';
-import { constructWebhookEvent, handleSuccessfulPayment } from '@/lib/stripe';
+import { constructWebhookEvent, handleSuccessfulPayment } from '@/lib/stripe-server';
 import Stripe from 'stripe';
 
 export const config = {

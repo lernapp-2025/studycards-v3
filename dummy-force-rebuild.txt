@@ -1,0 +1,3 @@
+This file exists only to force a new build when we make changes.
+Timestamp: 2025-08-26 - Fixing persistent Stripe client-side import issue
+Version: v2.0.1

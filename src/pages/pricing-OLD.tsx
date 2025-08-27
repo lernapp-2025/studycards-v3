@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card';
-// import { getStripe } from '@/lib/stripe'; // DISABLED TO PREVENT CLIENT-SIDE STRIPE ERRORS
+// Removed getStripe import to avoid client-side stripe issues
 import toast from 'react-hot-toast';
 import { Crown, Check } from 'lucide-react';
 
-export default function SimplePricingPage() {
+export default function PricingPage() {
   const [loading, setLoading] = useState(false);
   const { user, session } = useAuth();
+  const { t } = useTranslation(['common', 'pricing']);
   const router = useRouter();
 
   const handleUpgrade = async () => {
@@ -36,11 +39,13 @@ export default function SimplePricingPage() {
         throw new Error('Failed to create checkout session');
       }
 
-      const { sessionId } = await response.json();
-      const stripe = await getStripe();
+      const { url } = await response.json();
       
-      if (stripe) {
-        await stripe.redirectToCheckout({ sessionId });
+      if (url) {
+        // Direct redirect to Stripe Checkout
+        window.location.href = url;
+      } else {
+        throw new Error('Keine Checkout-URL erhalten');
       }
     } catch (error) {
       console.error('Payment error:', error);
@@ -138,3 +143,9 @@ export default function SimplePricingPage() {
     </div>
   );
 }
+
+export const getServerSideProps = async ({ locale }: { locale: string }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common', 'pricing'])),
+  },
+});

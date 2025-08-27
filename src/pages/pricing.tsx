@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useAuth } from '@/contexts/AuthContext';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card';
-// Removed getStripe import to avoid client-side stripe issues
 import toast from 'react-hot-toast';
 import { Crown, Check } from 'lucide-react';
 
 export default function PricingPage() {
   const [loading, setLoading] = useState(false);
   const { user, session } = useAuth();
+  const { t } = useTranslation(['common', 'pricing']);
   const router = useRouter();
 
   const handleUpgrade = async () => {
@@ -53,6 +55,7 @@ export default function PricingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-sc-blue/5 via-sc-green/5 to-sc-purple/5">
+      {/* REBUILD FORCED - v2.0.2 */}
       <div className="container mx-auto px-4 py-16">
         <div className="max-w-4xl mx-auto">
           
@@ -140,3 +143,9 @@ export default function PricingPage() {
     </div>
   );
 }
+
+export const getServerSideProps = async ({ locale }: { locale: string }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ['common', 'pricing'])),
+  },
+});

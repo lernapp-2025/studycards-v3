@@ -10,8 +10,27 @@ import { Crown, X } from 'lucide-react';
 export default function TrialExpiredModal() {
   const { user, isTrialExpired, isPremium } = useAuth();
   const [isVisible, setIsVisible] = useState(true);
-  const { t } = useTranslation('common');
+  const { t, ready } = useTranslation('common');
   const router = useRouter();
+
+  // Debug logging
+  console.log('TrialExpiredModal Debug:', {
+    ready,
+    sampleTranslation: t('trialExpired.title'),
+    isTranslationKey: t('trialExpired.title') === 'trialExpired.title'
+  });
+
+  // Fallback text for when translations aren't loaded
+  const getText = (key: string, fallback: string) => {
+    const translated = t(key);
+    console.log(`Translation for ${key}:`, translated);
+    
+    if (!ready || !translated || translated === key) {
+      console.log(`Using fallback for ${key}:`, fallback);
+      return fallback;
+    }
+    return translated;
+  };
 
   if (!user || isPremium || !isTrialExpired || !isVisible) {
     return null;
@@ -34,17 +53,17 @@ export default function TrialExpiredModal() {
             <Crown className="h-8 w-8 text-white" />
           </div>
           <CardTitle className="text-2xl text-sc-orange">
-            {t('trialExpired.title')}
+            {getText('trialExpired.title', 'Dein kostenloser Testzeitraum ist abgelaufen')}
           </CardTitle>
           <CardDescription className="text-base">
-            {t('trialExpired.subtitle')}
+            {getText('trialExpired.subtitle', 'Schalte StudyCards jetzt dauerhaft frei')}
           </CardDescription>
         </CardHeader>
 
         <CardContent className="space-y-6">
           <div className="bg-muted/50 p-4 rounded-lg">
             <p className="text-sm text-muted-foreground leading-relaxed">
-              {t('trialExpired.message')}
+              {getText('trialExpired.message', 'Um weiterhin alle Funktionen von StudyCards nutzen zu können, schalte dein Konto jetzt für nur 7,99 € dauerhaft frei. Nach der Freischaltung hast du uneingeschränkten Zugriff auf alle Lernmodi, Gruppenfunktionen, Auszeichnungen und Statistiken.')}
             </p>
           </div>
 
@@ -54,7 +73,7 @@ export default function TrialExpiredModal() {
               className="w-full bg-sc-orange hover:bg-sc-orange/90 text-white"
             >
               <Crown className="h-4 w-4 mr-2" />
-              {t('trialExpired.upgradeButton')}
+              {getText('trialExpired.upgradeButton', 'Jetzt für 7,99 € freischalten')}
             </Button>
 
             <Button 
@@ -62,7 +81,7 @@ export default function TrialExpiredModal() {
               onClick={handleClose}
               className="w-full text-muted-foreground"
             >
-              {t('trialExpired.laterButton')}
+              {getText('trialExpired.laterButton', 'Später erinnern')}
             </Button>
           </div>
 
@@ -70,11 +89,11 @@ export default function TrialExpiredModal() {
             <div className="flex items-center justify-center space-x-4 text-xs text-muted-foreground">
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-sc-green rounded-full mr-2"></div>
-                {t('trialExpired.features.unlimited')}
+                {getText('trialExpired.features.unlimited', 'Unbegrenzt')}
               </div>
               <div className="flex items-center">
                 <div className="w-2 h-2 bg-sc-blue rounded-full mr-2"></div>
-                {t('trialExpired.features.collaboration')}
+                {getText('trialExpired.features.collaboration', 'Zusammenarbeit')}
               </div>
             </div>
           </div>

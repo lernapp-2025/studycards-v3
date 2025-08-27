@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { createCheckoutSession } from '@/lib/stripe';
+import { createCheckoutSession } from '@/lib/stripe-server';
 import { supabase } from '@/lib/supabase';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
